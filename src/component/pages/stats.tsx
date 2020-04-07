@@ -4,13 +4,7 @@ import { P } from "../atoms/typography";
 function Stats(props: any) {
   return (
     <>
-      <div className="px-6">
-        <P fontWeight={400}>
-          Information Gathered Date and Time :{" "}
-          {props.data.data.data.update_date_time}
-        </P>
-      </div>
-      <div className="flex flex-wrap justify-around p-5">
+      <div className="flex flex-wrap justify-around px-5">
         <div className="w-full  sm:w-1/2 md:w-1/4 lg:w-1/4 xl:w-1/4  p-4">
           <div
             className="flex flex-col h-full justify-center items-center rounded overflow-hidden shadow-cus bg-white py-4"
@@ -105,6 +99,27 @@ function Stats(props: any) {
             <P fontSize={20}>Global Total Cases</P>
             <P bold fontSize={30} color="#45aaf2">
               {props.data.data.data.global_total_cases}
+            </P>
+          </div>
+        </div>
+        <div className={`px-6 pt-6 pb-1 flex flex-col w-full `}>
+          <P bold>Information Collected</P>
+          <div className="flex flex-row pl-4">
+            <P>Date &nbsp;:</P>
+            <P>
+              {props.data.data.data.update_date_time.substring(
+                0,
+                props.data.data.data.update_date_time.indexOf(" ")
+              )}
+            </P>
+          </div>
+          <div className="flex flex-row pl-4">
+            <P>Time &nbsp;:</P>
+            <P>
+              {props.data.data.data.update_date_time.substring(
+                props.data.data.data.update_date_time.indexOf(" "),
+                props.data.data.data.update_date_time.length
+              )}
             </P>
           </div>
         </div>

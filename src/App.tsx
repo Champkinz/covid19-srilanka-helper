@@ -50,31 +50,38 @@ function App() {
             style={{ width: 40, height: "auto" }}
           />
           <P fontSize={26} fontWeight={500} color="#e74c3c">
-            Quarantine Starter Pack
+            Quarantine Starter Pack Sri Lanka
           </P>
         </div>
       </div>
+
       <div className="flex w-full flex-row justify-center">
         <button
           onClick={() => setTab(1)}
           className={`bg-white hover:bg-gray-100 font-semibold py-2 px-4 border border-gray-400 rounded shadow rounded-full ${
-            tab === 1 ? "bg-red-400 text-white" : "text-gray-800"
+            tab === 1
+              ? "bg-red-400 hover:bg-red-400 text-white"
+              : "text-gray-800"
           }`}
         >
-          Stats
+          <div className="flex flex-row justify-center items-center">Stats</div>
         </button>
         <button
           onClick={() => setTab(2)}
           className={`bg-white hover:bg-gray-100 font-semibold py-2 px-4 border border-gray-400 rounded shadow ml-4 rounded-full ${
-            tab === 2 ? "bg-red-400 text-white" : "text-gray-800"
+            tab === 2
+              ? "bg-red-400 hover:bg-red-400 text-white"
+              : "text-gray-800"
           }`}
         >
-          Food
+          <div className="flex flex-row justify-center items-center">Food</div>
         </button>
         <button
           onClick={() => setTab(3)}
           className={`bg-white hover:bg-gray-100 font-semibold py-2 px-4 border border-gray-400 rounded shadow ml-4 rounded-full ${
-            tab === 3 ? "bg-red-400 text-white" : "text-gray-800"
+            tab === 3
+              ? "bg-red-400 hover:bg-red-400 text-white"
+              : "text-gray-800"
           }`}
         >
           Activities
