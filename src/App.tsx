@@ -9,7 +9,7 @@ import Activities from "./component/pages/activities";
 
 function App() {
   const [data, setData] = useState();
-  const [tab, setTab] = useState(1);
+  const [tab, setTab] = useState(2);
   const getInitData = async () => {
     const res = await new SDK().getInitData();
     console.log(res);
@@ -43,13 +43,17 @@ function App() {
       style={{ paddingTop: 100 }}
     >
       <div className="flex w-full flex-row justify-start head-title bg-white">
-        <div className="p-4 flex flex-row">
+        <div className="p-4 flex flex-row items-center">
           <img
             alt=""
             src="https://static.thenounproject.com/png/2522082-200.png"
             style={{ width: 40, height: "auto" }}
           />
-          <P fontSize={26} fontWeight={500} color="#e74c3c">
+          <P
+            fontSize={window.screen.width < 400 ? 14 : 26}
+            fontWeight={500}
+            color="#e74c3c"
+          >
             Quarantine Starter Pack Sri Lanka
           </P>
         </div>
