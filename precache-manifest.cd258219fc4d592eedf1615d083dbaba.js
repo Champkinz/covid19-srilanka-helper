@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2444195619746f02365d9a3f7fff402a",
+    "revision": "25c30c1baaf741a4fbcbba57c21981ae",
     "url": "/covid19-srilanka-helper/index.html"
   },
   {
-    "revision": "596a1a2271eda9e078d0",
+    "revision": "0d2e0198d0e17ac297b1",
     "url": "/covid19-srilanka-helper/static/css/main.0c7fa0dd.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/covid19-srilanka-helper/static/js/2.cf39558e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "596a1a2271eda9e078d0",
-    "url": "/covid19-srilanka-helper/static/js/main.72e622ae.chunk.js"
+    "revision": "0d2e0198d0e17ac297b1",
+    "url": "/covid19-srilanka-helper/static/js/main.cebc544c.chunk.js"
   },
   {
     "revision": "3110cdced9ccf368036c",
