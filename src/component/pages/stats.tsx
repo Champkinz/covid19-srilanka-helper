@@ -98,7 +98,9 @@ function Stats(props: any) {
             />
             <P fontSize={20}>Global Total Cases</P>
             <P bold fontSize={30} color="#45aaf2">
-              {props.data.data.data.global_total_cases}
+              {props.data.data.data.global_total_cases
+                .toString()
+                .replace(/\B(?<!\.\d*)(?=(\d{3})+(?!\d))/g, ",")}
             </P>
           </div>
         </div>

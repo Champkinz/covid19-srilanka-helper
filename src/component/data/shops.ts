@@ -131,4 +131,95 @@ export const shops = [
     tags: ["Food"],
     phone: "0115661661",
   },
+  {
+    title: "Eat Right",
+    img: logo.default,
+    delivery: "Colombo 01 to 10",
+    tags: ["Food"],
+    website: "www.eatright.lk",
+  },
+  {
+    title: "CheeseHeads",
+    img: logo.cheeseHeads,
+    delivery: "Colombo",
+    tags: ["Food"],
+    phone: "0773733664",
+  },
+  {
+    title: "KIKU",
+    img: logo.KIKU,
+    delivery: "Colombo",
+    warning: "Order via KIKU Colombo Instagram page",
+    website: "www.instagram.com/kikucolombo",
+  },
+  {
+    title: "Kaha Bath Gedara",
+    img: logo.kahaBathGedara,
+    delivery:
+      "Rajagiriya, Nawala, Kotte, Nugegoda, Battaramulla, Talawatugoda, Malabe, Pelawatte",
+    phone: "0777660740",
+  },
+  {
+    title: "Dindigul Thalappakatti Restaurant",
+    img: logo.dinigul,
+    delivery: "Colombo",
+    phone: "0114878787",
+  },
+  {
+    title: "GRILL Kitchen",
+    img: logo.grillKitchen,
+    delivery:
+      "Thalawatugoda, Maharagama, Pannipitiya, Kotte, Rajagiriya, Thalahena and Hokandara",
+    warning:
+      "The orders need to be placed before 10.00 PM on the day before. WHATSAPP or Text will be sufficient to place an order",
+    phone: "0705500055",
+  },
+  {
+    title: "The Mango Tree & The Jack Tree",
+    img: logo.mngNJck,
+    delivery: "Colombo 02 to 08",
+    phone: "0759666999",
+    warning: "WHATSAPP or Text will be sufficient to place an order",
+  },
+  {
+    title: "Isso",
+    img: logo.isso,
+    delivery: "Not Specified",
+    phone: "0117770300",
+  },
+  {
+    title: "Diner’s Delight",
+    img: logo.dinerD,
+    delivery: "Not Specified",
+    phone: "0117741341",
+  },
+  {
+    title: "Shandong Chinese Restaurant",
+    img: logo.shandong,
+    delivery:
+      "Colombo, Rajagiriya, Nawala, Kotte, Nugegoda, Battaramulla, Talawathugoda, Malabe, Kolonnawa and Wellampitiya",
+    phone: "0117882882",
+    warning: "077 448 33 58(Whatsapp), 077 303 95 22(Whatsapp)",
+  },
+  {
+    title: "Malay Restaurant",
+    img: logo.malayRes,
+    delivery: "Colombo 03 to 06, Dehiwala, Mount Lavinia and Kohuwala",
+    phone: "0772168718",
+  },
+  {
+    title: "Pizza Hut",
+    img: logo.pizzaHut,
+    delivery:
+      "Borella, Colombo 01 to 03, Colombo 06 to 11, Dehiwala, Fort, Havelock, Kadawatha, Kandy, Katugastota, Kottawa, Kurunegala, Malabe, Moratuwa, Nawala, Nugegoda, Pelawatta, Panadura, Peradeniya, Piliyandala, Pitakotte, Rajagiriya and Union Place",
+    website: "www.pizzahut.lk",
+    phone: "0112729729",
+  },
+  {
+    titel: "KFC",
+    img: logo.kfc,
+    delivery:
+      "Colombo 03, Colombo 04, Colombo 05, Colombo 06, Dehiwela, Mount Lavinia, Galle, Kotahena, Jaffna, Batticaloa, Kurunegala, Kalutara, Kadawatha, Nugegoda, Moratuwa, Kottawa, Kandy, Wattala, Rajagiriya, Gampaha, Matara, Kiribathgoda, Kalmunai",
+    phone: "0115532532",
+  },
 ];
