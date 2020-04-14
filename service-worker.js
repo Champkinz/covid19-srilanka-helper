@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/covid19-srilanka-helper/precache-manifest.cd258219fc4d592eedf1615d083dbaba.js"
+  "/covid19-srilanka-helper/precache-manifest.b01cd26d810aff0c296a25731ae33340.js"
 );
 
 self.addEventListener('message', (event) => {
